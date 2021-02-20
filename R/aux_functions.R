@@ -85,7 +85,6 @@ inf_prob <- function(day = NULL, inc_samp = NULL, theta = NULL, R = NULL, contac
 
 
 
-
   out <- rep(NA,length(inc_samp))
   out[presym] <- presym_inds
   out[!presym] <- postsym_inds
